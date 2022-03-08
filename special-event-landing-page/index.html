@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/b5124ca421.js" crossorigin="anonymous"></script>
+    <title>Special Event Landing Page - Design & Development: Christa DeJesus</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- TOP NAV -->
+        <nav>
+            <div class="nav-desktop">
+                <div class="nav-header">
+                    <div class="nav-logo"><img src="./assets/logo_0.svg" /></div>
+                    <div aria-label="Menu" class="nav-btn" onclick="toggleNav()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div id="topNavLinks" class="nav-links">
+                    <a href="#intro" class="nav-link" onclick="toggleNav()">about</a>
+                    <a href="#visit" class="nav-link" onclick="toggleNav()">plan a visit</a>
+                    <a href="#support" class="nav-link" onclick="toggleNav()">get involved</a>
+                    <a href="#contact" class="nav-link" onclick="toggleNav()">contact us</a>
+                    <div class="nav-link nav-social-wrapper">
+                        <a href="https://facebook.com" aria-label="Facebook link"><i
+                                class="fa-brands fa-facebook-f nav-icon-badge"></i></a>
+                        <a href="https://instagram.com" aria-label="Instagram link"><i
+                                class="fa-brands fa-instagram nav-icon-badge"></i></a>
+                        <a href="https://youtube.com" aria-label="Youtube Link"><i
+                                class="fa-brands fa-youtube nav-icon-badge"></i></a>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <header id="home" class="hero-section center-flex-column">
+            <div class="hero-text">
+                <p class="hero-city">Your City, ST</p>
+                <h1>Flower Farmer<br>Market Days</h1>
+                <i class="fa-solid fa-bahai"></i>
+                <i class="fa-solid fa-bahai"></i>
+                <i class="fa-solid fa-bahai"></i>
+                <br><br>
+                <p>April, 2022 - October, 2022</p>
+                <button class="btn">Season Calendar <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <!-- ABOUT -->
+        <article class="main-content">
+            <section id="intro" class="section-main">
+                <div class="intro-img-wrapper">
+                    <img src="./assets/logo_0.svg" />
+                </div>
+                <hr><br><br>
+                <p>Bringing local Flower Farmers and the Your City community together since 1929.</p>
+                <br>
+                <hr>
+            </section>
+            <section class="section-main center-text">
+                <h2>As seen in</h2>
+                <div class="heading-accent"></div>
+                <div class="center-flex-row">
+                    <img class="about-logo" src="./assets/logo_1.svg">
+                    <img class="about-logo" src="./assets/logo_4.svg">
+                    <img class="about-logo" src="./assets/logo_2.svg">
+                    <img class="about-logo" src="./assets/logo_3.svg">
+                </div>
+            </section>
+
+            <!-- SUPPORT -->
+            <section id="support" class="section-accent">
+                <h2 class="center-text">Get Involved</h2>
+                <div class="heading-accent"></div>
+                <div class="even-flex-row">
+                    <div class="support-card">
+                        <img src="./assets/flower_truck.jpg" />
+                        <div>
+                            <h3>Become a Vendor</h3>
+                            <p>Are you a local Flower Farmer or Floral Artisan? We are currently accepting applications
+                                for new vendors for the 2022 season.</p>
+                            <button class="btn arrow-btn">Apply Now <i
+                                    class="fa-solid fa-arrow-right icon"></i></button>
+                        </div>
+                    </div>
+                    <div class="support-card">
+                        <img src="./assets/market_crowd.jpg" />
+                        <div>
+                            <h3>Volunteer</h3>
+                            <p>If you enjoy supporting your local small business community and the aroma of fresh cut
+                                flowers, you'll LOVE volunteering at the market!</p>
+                            <button class="btn arrow-btn">Sign Up <i class="fa-solid fa-arrow-right icon"></i></button>
+                        </div>
+                    </div>
+                    <div class="support-card">
+                        <img src="./assets/market_flower_stand.jpg" />
+                        <div>
+                            <h3>Friends of the Market</h3>
+                            <p>It takes a village to bring this amazing market to the community and support our local
+                                flower farmers year after year. Become a "Friend of the Market" and be part of bringing
+                                it all together!
+                            </p>
+                            <button class="btn arrow-btn">Learn More <i
+                                    class="fa-solid fa-arrow-right icon"></i></button>
+                        </div>
+                    </div>
+                    <div class="support-card">
+                        <img src="./assets/flower_buckets.jpg" />
+                        <div>
+                            <h3>Spread the word</h3>
+                            <p>Show your support by connecting on social media and tag us in your Market Day posts!</p>
+                            <div class="btn-container">
+                                <button class="btn social-btn">
+                                    <i class="fa-brands fa-facebook-f icon-badge"></i>
+                                    Facebook
+                                </button>
+                                <button class="btn social-btn">
+                                    <i class="fa-brands fa-instagram icon-badge"></i>
+                                    Instagram
+                                </button>
+                                <button class="btn social-btn">
+                                    <i class="fa-brands fa-youtube icon-badge"></i>
+                                    YouTube
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- VISIT -->
+            <section id="visit" class="section-main">
+                <div>
+                    <h2 class="center-text">Visit the Market</h2>
+                    <div class="heading-accent"></div>
+                    <div class="visit-details">
+                        <div>
+                            <p>Free parking is available in the parking lot at the southwest corner of Main Street and
+                                5th
+                                Avenue.</p>
+                            <p>Additional metered street parking is available in the surrounding area.</p>
+                        </div>
+                        <img src="./assets/map.svg">
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="section-main">
+                <hr>
+                <h2 class="center-text">Contact Us</h2>
+                <div class="heading-accent"></div>
+                <div class="visit-details">
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fa-solid fa-phone icon"></i>
+                            <a href="#home"> 888.888.8888</a>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fa-solid fa-envelope icon"></i>
+                            <a href="#home"> info@email.com</a>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fa-solid fa-location-dot icon"></i>
+                            <div>
+                                <a href="#home">
+                                    123 North Ave,<br>Your City, ST
+                            </div>
+                        </div>
+                    </div>
+                    <form>
+                        <p>Get updates and announcements straight to your inbox by signing up for our newsletter below.
+                        </p>
+                        <input type="text" placeholder="youremail@email.com"></input>
+                        <button class="btn accent-btn">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </article>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="section-main center-text">
+                <p>&copy;2022 <a href="https://indychrista.com">Christa DeJesus</a> Design and Development.</p>
+                <p>(This website, featured logos, and content are for demonstration only and do not represent actual
+                    business entities.)</p>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+</body>
+
+</html>
