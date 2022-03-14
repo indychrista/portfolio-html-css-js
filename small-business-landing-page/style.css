@@ -378,7 +378,7 @@ footer {
   color: var(--neutral-2);
 }
 .social-link i:hover {
-  color: var(--neutral-4);
+  color: var(--primary-1);
 }
 /* MEDIA QUERIES - Change min-width breakpoints to suit your preference. */
 @media screen and (min-width: 500px) {
