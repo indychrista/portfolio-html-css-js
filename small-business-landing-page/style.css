@@ -24,7 +24,7 @@ table {
   letter-spacing: .05rem;
   --primary-1: #ffd900; /* This background color passes WCAG AA accessibility for normal #222 text */
   --accent-1: #ff4500; /* This background color passes WCAG AA accessibility for normal #222 text */
-  --neutral-1: #222;
+  --neutral-1: #111;
   --neutral-2: #999;
   --neutral-3: #dfdfdf;
   --neutral-4: #fff;
